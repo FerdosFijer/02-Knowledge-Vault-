@@ -100,3 +100,110 @@ header{
 .banner-button-img2{
    margin-right: 10px;
 }
+#notes .notes-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+#notes .notes-container .notes-heading{
+    max-width:850px;
+    margin: 0px auto;
+    text-align: center;
+}  
+.notes-heading h2{
+    font-size: 48px;
+    margin: 30px 0px 10px 0px;
+}
+.notes-heading p{
+    font-size: 16px;
+    margin-bottom: 44px;
+    line-height: 20px;
+    color: #627382;
+}
+#notes .notes-container .card{
+    display: flex;
+    gap: 24px;
+}
+.notes-container .card .info-card{
+    padding: 70px 24px;
+    box-shadow: 0px 6px 10px 0px #00000081;
+    max-width: 322 px;
+    /* padding: 70px 24px ; */
+    /* background: #000; */
+    text-align: center;
+    margin-bottom: 85px;
+}
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 107px 16px 107px;
+}
+.icon-circle img {
+    width: 32px;
+    height: 32px;
+}
+.icon-circle h4{
+    font-size: 24px;
+    color: #001931;
+    font-weight: 600px;
+    margin-bottom: 18px;
+}
+.icon-circle p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+#solution .solution-container{
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    margin: 0px auto;
+    gap: 65px;
+}
+#solution .solution-container img{
+    width:600px;
+    height: 600px;
+}
+#solution .solution-container .solution-details{
+    margin: 100px 0px;
+}
+.solution-details .p1{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.solution-details h4{
+    font-size: 48px;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.solution-details{
+
+    margin-bottom: 120px;
+}
+.solution-details p{
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+    margin-bottom: 40px;
+}
+.solution-details .menu p{
+    font-size: 16px;
+    color: #001931;
+    list-style: none;
+}
+.solution-details .menu li{
+    display: flex;
+    gap: 6px;
+}
+.menu-list2{
+    width: 20px !important;
+    height: 20px !important;
+    vertical-align: middle;
+}
