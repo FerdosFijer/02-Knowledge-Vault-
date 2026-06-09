@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     font-size: 16px;
-    font-weight:600px;
+    font-weight:600;
     cursor: pointer;
 }
 .btn-2{
@@ -30,7 +30,7 @@
     border-radius: 100px;
     padding: 8px 12px;
     font-size: 16px;
-    font-weight:500px;
+    font-weight:500;
     cursor: pointer;
 }
 /* Main items */
@@ -50,7 +50,7 @@ nav .menu {
     gap: 51px;
     align-items: center;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 nav .menu a{
     
@@ -170,11 +170,12 @@ header{
     height: 600px;
 }
 #solution .solution-container .solution-details{
-    margin: 100px 0px;
+    margin: 102px 0px;
 }
 .solution-details .p1{
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: 600;
     line-height: 20px;
     margin-bottom: 16px;
 }
@@ -183,10 +184,7 @@ header{
     color:#001931;
     margin-bottom: 16px;
 }
-.solution-details{
 
-    margin-bottom: 120px;
-}
 .solution-details p{
     font-size: 16px;
     line-height: 20px;
@@ -206,4 +204,30 @@ header{
     width: 20px !important;
     height: 20px !important;
     vertical-align: middle;
+}
+#think{
+    width:85%;
+    max-width: 1360px;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    background-color: #F7F6F2 ;
+}
+#think .think-container h3{
+    padding: 80px 40px 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#001931;
+}
+#think .think-container p{
+    padding-bottom: 24px  ;
+    font-size: 16px;
+    color:#627382;
+}
+#think .think-container .think-button{
+     margin: 20px 0;
+}
+.think-button button {
+    display: inline-flex;
+    align-items: center;
 }
