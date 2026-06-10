@@ -35,11 +35,12 @@
 }
 /* Main items */
 nav{
+    width:85%;
+    max-width: 1360px;
     display: flex;
     justify-content:space-around;
-    gap: 345px;
     align-items: center;
-    /* border: 2px solid red; */
+    margin: 0px auto;
 }
 nav .logo-navbar{
     width:139px ;
@@ -53,7 +54,6 @@ nav .menu {
     font-weight: 500;
 }
 nav .menu a{
-    
     /* font-size: 20px; */
     color: #414141;
     text-decoration: none;
@@ -210,7 +210,7 @@ header{
     max-width: 1360px;
     align-items: center;
     text-align: center;
-    margin: 0px auto;
+    margin: 0px auto 120px;
     background-color: #F7F6F2 ;
 }
 #think .think-container h3{
